@@ -1,0 +1,6 @@
+
+numbers = list(map(int, input("Nhập các số, cách nhau bởi dấu cách: ").split()))
+
+max_number = max(numbers)
+
+print("Số lớn nhất trong dãy là:", max_number)
